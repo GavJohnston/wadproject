@@ -1,9 +1,0 @@
-c:\users\annuradha\documents\visual studio 2015\Projects\Linq Demo 1\Linq Demo 1\bin\Debug\Linq Demo 1.exe.config
-c:\users\annuradha\documents\visual studio 2015\Projects\Linq Demo 1\Linq Demo 1\bin\Debug\Linq Demo 1.exe
-c:\users\annuradha\documents\visual studio 2015\Projects\Linq Demo 1\Linq Demo 1\bin\Debug\Linq Demo 1.pdb
-c:\users\annuradha\documents\visual studio 2015\Projects\Linq Demo 1\Linq Demo 1\obj\Debug\Linq Demo 1.csprojResolveAssemblyReference.cache
-c:\users\annuradha\documents\visual studio 2015\Projects\Linq Demo 1\Linq Demo 1\obj\Debug\Linq Demo 1.exe
-c:\users\annuradha\documents\visual studio 2015\Projects\Linq Demo 1\Linq Demo 1\obj\Debug\Linq Demo 1.pdb
-H:\Linq Demo 1\Linq Demo 1\Linq Demo 1\bin\Debug\Linq Demo 1.exe.config
-H:\Linq Demo 1\Linq Demo 1\Linq Demo 1\obj\Debug\Linq Demo 1.exe
-H:\Linq Demo 1\Linq Demo 1\Linq Demo 1\obj\Debug\Linq Demo 1.pdb
