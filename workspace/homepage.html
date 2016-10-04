@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+          <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+   
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+   
+    .row.content {height: 450px}
+    
+   
+    .sidenav {
+      padding-top: 20px;
+      background-color: #84aeae;
+      height: 100%;
+    }
+    
+   
+    footer {
+      background-color: #84aeae;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+        
+nav, header {
+				clear: both;
+				color: #84aeae;
+				background-color: #84aeae;
+				height: 60px;
+                
+}
+			nav ul {
+				margin: 0px;
+				padding: 0px 0px 0px 0px;}
+			nav li {
+				display: inline;
+				margin-right: 215px;
+			    padding: 0px 0px 0px 100px;
+			}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current {
+				color: #000000;}
+
+
+p8 {
+  background: #84aeae;
+  background-image: -webkit-linear-gradient(top, #84aeae, #000000);
+  background-image: -moz-linear-gradient(top, #84aeae, #000000);
+  background-image: -ms-linear-gradient(top, #84aeae, #000000);
+  background-image: -o-linear-gradient(top, #84aeae, #000000);
+  background-image: linear-gradient(to bottom, #84aeae, #000000);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  text-shadow: 1px 3px 1px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 10px 20px 10px 20px;
+  border: solid #0079c4 0px;
+  text-decoration: none;
+  margin: 0px auto 0px auto;
+Position: absolute;
+top: -20px;
+  
+}
+
+p8:hover {
+  background: #eeff00;
+  background-image: -webkit-linear-gradient(top, #eeff00, #3498db);
+  background-image: -moz-linear-gradient(top, #eeff00, #3498db);
+  background-image: -ms-linear-gradient(top, #eeff00, #3498db);
+  background-image: -o-linear-gradient(top, #eeff00, #3498db);
+  background-image: linear-gradient(to bottom, #eeff00, #3498db);
+  text-decoration: none;
+}
+
+
+body {
+    background-color: #84aeae;
+}
+
+
+
+
+h1 {
+   font-style: oblique;
+    Font-family: "Courier New", Courier, monospace;
+    position: absolute;
+    left: 260px;
+    top: -05px;
+    font-size: 55px;  
+    color:#293d3d;
+}
+
+
+
+img {
+    
+    box-shadow: 20px 20px 5px #888888;
+    
+}    
+table, td, th 
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    
+}
+
+div {
+    -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 180px;
+  height: 150px;
+  padding: 10px;
+  overflow: hidden;
+  border: 3px solid rgba(0,0,255,1);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-linear-gradient(-81.28940686249999deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), -webkit-linear-gradient(-225deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background: -moz-linear-gradient(171.2894068625deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), -moz-linear-gradient(315deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background: linear-gradient(171.2894068625deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), linear-gradient(315deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+   Position:absolute;
+    top: -20px;
+    left: 550px;
+    font-size: 13px;
+} 
+
+div1 {
+    -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 180px;
+  height: 150px;
+  padding: 20px;
+  overflow: hidden;
+  border: 3px solid rgba(0,0,255,1);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-linear-gradient(-81.28940686249999deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), -webkit-linear-gradient(-225deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background: -moz-linear-gradient(171.2894068625deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), -moz-linear-gradient(315deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background: linear-gradient(171.2894068625deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), linear-gradient(315deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 7px 7px 1px 5px rgba(0,0,0,0.3) ;
+  box-shadow: 7px 7px 1px 5px rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+   Position:absolute;
+    font-size: 13px;
+    bottom: -80;
+    left: 550px;
+} 
+
+a {
+   background: #84aeae;
+  background-image: -webkit-linear-gradient(top, #84aeae, #000000);
+  background-image: -moz-linear-gradient(top, #84aeae, #000000);
+  background-image: -ms-linear-gradient(top, #84aeae, #000000);
+  background-image: -o-linear-gradient(top, #84aeae, #000000);
+  background-image: linear-gradient(to bottom, #84aeae, #000000);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  text-shadow: 1px 3px 1px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 10px 20px 10px 20px;
+  border: solid #0079c4 3px;
+  text-decoration: none;
+    position: absolute;
+    bottom: -80;
+}    
+
+a:hover {
+  background: #eeff00;
+  background-image: -webkit-linear-gradient(top, #eeff00, #3498db);
+  background-image: -moz-linear-gradient(top, #eeff00, #3498db);
+  background-image: -ms-linear-gradient(top, #eeff00, #3498db);
+  background-image: -o-linear-gradient(top, #eeff00, #3498db);
+  background-image: linear-gradient(to bottom, #eeff00, #3498db);
+  text-decoration: none;
+}
+
+
+button {
+  background: #84aeae;
+  background-image: -webkit-linear-gradient(top, #84aeae, #000000);
+  background-image: -moz-linear-gradient(top, #84aeae, #000000);
+  background-image: -ms-linear-gradient(top, #84aeae, #000000);
+  background-image: -o-linear-gradient(top, #84aeae, #000000);
+  background-image: linear-gradient(to bottom, #84aeae, #000000);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  text-shadow: 1px 3px 1px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 10px 20px 10px 20px;
+  border: solid #0079c4 3px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #eeff00;
+  background-image: -webkit-linear-gradient(top, #eeff00, #3498db);
+  background-image: -moz-linear-gradient(top, #eeff00, #3498db);
+  background-image: -ms-linear-gradient(top, #eeff00, #3498db);
+  background-image: -o-linear-gradient(top, #eeff00, #3498db);
+  background-image: linear-gradient(to bottom, #eeff00, #3498db);
+  text-decoration: none;
+}
+
+p {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 1130px;
+  padding: 20px;
+  overflow: hidden;
+  border: 3px solid rgba(0,0,255,1);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-linear-gradient(-81.28940686249999deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), -webkit-linear-gradient(-225deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background: -moz-linear-gradient(171.2894068625deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), -moz-linear-gradient(315deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background: linear-gradient(171.2894068625deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), linear-gradient(315deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 7px 7px 1px 5px rgba(0,0,0,0.3) ;
+  box-shadow: 7px 7px 1px 5px rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+    font-size: 20px;
+}
+p6{
+    width: 280px;
+    height: 30px;
+    Position: absolute;
+    bottom: -160px;
+    left: 10px;
+}
+
+
+
+</style>
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+
+</script>
+<script>
+
+$(document).ready(function(){
+    $(".btn1").click(function(){
+        $("p2").slideDown();
+    });
+    $(".btn2").click(function(){
+        $("p2").slideUp();
+    });
+});
+
+$(document).ready(function(){
+    $(".btn4").click(function(){
+        $("p3").slideDown();
+    });
+    $(".btn3").click(function(){
+        $("p3").slideUp();
+    });
+});
+
+$(document).ready(function(){
+    $(".btn6").click(function(){
+        $("p4").slideDown();
+    });
+    $(".btn5").click(function(){
+        $("p4").slideUp();
+    });
+});
+
+  $(document).ready(function(){
+   var xml;
+  $("login").click(function(){
+       $.get('users.xml', null, function (data, textStatus) {
+           xml=data;
+            $(xml).find('details').each( function(){
+                var item = $(this);
+
+                if(item.find('text').text()==$('#userid').val() && item.find('password').text()==$('#pwd').val())
+                {
+                    window.open('ajax.html');
+                }
+           });
+        });
+    });
+});
+
+
+
+</script>
+
+				
+			
+        <h1>Cheap easy travelling</h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      
+        
+
+
+
+        </br>
+        <img src="http://www.witsendbb.com/wp-content/uploads/2015/07/background-family_holidays.jpg" height="450px" width="1250"></img>
+        <p>Created in 2015. Cheap Easy Travelling points our users in the right direction giving them most suited holiday. 
+        </br>=touristic, sunny, spending, Skiing  based or more our database will have the right choice for you. Offering you 
+        </br>the best sites to find the best flights and accomodation and definitely a great time please please check out our details below in 
+        </br>order to sign up and have a trip worth remembering.</p>
+  
+   
+   
+   <table>
+        <tr>
+            <th><button class="btn2">Less about us</button>
+             <button class="btn1">More about us</button></br>
+              <p2>This was created by Gavin and Conor in 2015.</BR> When they  graduated they were working </BR> on this company full  time. They work with </br> many international air lines and hotels to get </br> the best possible deals. </p2>
+              <p6><a href=Aboutus.html>To find more about us please click here.</a></p6></th>
+            <th><button class="btn3">Less Contact details</button>
+             <button class="btn4">More Contact details</button></br>
+             <p3>Phone number= 0876767200 </br> Land line number=01 8463668 </br>Address= 4 Main Street, </br> Malahide, Dublin </p3></th>
+            <th><button class="btn5">Close terms and conditions</button>
+             <button class="btn6">Open terms and conditions</button></br>
+             <p4>This website is created by gavin Johnston  and </br> conor grant for learning purposes only as part </br> of their semester 1 project in web application </br> development module in National College </br> of Ireland</p4></th>
+        </tr>
+    </table>
+    
+
+    <section class="container">
+    <div1 class="login">
+        <h2>Login to Profile</h2>
+      <form method="post" action="ajax.html">
+        <p5><input type="text" name="login" value="" placeholder="Username or Email" id="name"></p5></br>
+        <p5><input type="password" name="password" value="" placeholder="Password"></p5></br>
+         <p5><a href="ajax.html" class="button">submit</a></p5>
+      </form>
+      </div1>
+      
+      
+      
+      
+      <header>
+<nav>
+    </ul>
+<li><p8><a href="homepage.html" class="button">home</a></p8></li>
+<li><p8><a href="Aboutus.html" class="button">About us</a></p8></li>
+<li><p8><a href="ajax.html" class="button">Country search</a></p8></li>
+<li><p8><a href="Weather.html" class="button">Weather</a></p8></li>
+</ul>
+</nav></header>
+    </body>
+</html>

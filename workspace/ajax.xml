@@ -1,0 +1,83 @@
+<rss version="2.0">
+<channel>
+<title>Adelaide Weather</title>
+<link>http://www.weatherzone.com.au/warnings.jsp</link>
+<description>
+Weatherzone - forecasts, satellite, BoM radar and more
+</description>
+<pubDate>Sat, 05 Dec 2015 21:47:20 +1100</pubDate>
+<lastBuildDate>Sat, 05 Dec 2015 21:47:20 +1100</lastBuildDate>
+<language>en-au</language>
+<copyright>Copyright The Weather Company</copyright>
+<docs>http://backend.userland.com/rss</docs>
+<image>
+<url>
+http://resources.weatherzone.com.au/ws/images/wz/weatherzone_logo_88x20.gif
+</url>
+<title>Weatherzone</title>
+<link>http://www.weatherzone.com.au</link>
+<width>88</width>
+<height>20</height>
+</image>
+<item>
+<title>Current weather for Adelaide at 9:10pm CDT</title>
+<description>
+<![CDATA[
+<b>Temperature:</b> 31.5&#176;C
+ <img align="top" src="http://www.weatherzone.com.au/images/widgets/nav_trend_down.gif" alt="falling"/>
+ <br />
+ <b>Feels like:</b> 29.4&#176;C<br />
+ <b>Dew point:</b> 4.5&#176;C
+ <img align="top" src="http://www.weatherzone.com.au/images/widgets/nav_trend_down.gif" alt="falling"/>
+ <br />
+ <b>Relative humidity:</b> 18%<br />
+ <b>Wind:</b> ESE at 17 km/h, gusting to 22 km/h
+ <img align="top" src="http://www.weatherzone.com.au/images/widgets/nav_trend_up.gif" alt="rising"/>
+ <br />
+ <b>Rain:</b> 0.0mm since 9am<br />
+ <b>Pressure:</b> 1012.0 hPa
+ <img align="top" src="http://www.weatherzone.com.au/images/widgets/nav_trend_steady.gif" alt="steady"/>
+ <br />
+]]>
+</description>
+<link>http://www.weatherzone.com.au/sa/adelaide/adelaide</link>
+<guid isPermaLink="true">http://www.weatherzone.com.au/sa/adelaide/adelaide</guid>
+</item>
+<item>
+<title>Adelaide weather forecast</title>
+<description>
+<![CDATA[
+<b>Sunday</b><br />
+ <img src="http://www.weatherzone.com.au/images/icons/fcast_30/mostly_sunny.gif"><br />
+ Mostly sunny<br />
+ 26&#176;C - 41&#176;C<br /><br />
+ <b>Monday</b><br />
+ <img src="http://www.weatherzone.com.au/images/icons/fcast_30/late_shower.gif"><br />
+ Late shower<br />
+ 28&#176;C - 38&#176;C<br /><br />
+ <b>Tuesday</b><br />
+ <img src="http://www.weatherzone.com.au/images/icons/fcast_30/sunny.gif"><br />
+ Sunny<br />
+ 21&#176;C - 30&#176;C<br /><br />
+ <b>Wednesday</b><br />
+ <img src="http://www.weatherzone.com.au/images/icons/fcast_30/mostly_sunny.gif"><br />
+ Mostly sunny<br />
+ 16&#176;C - 26&#176;C<br /><br />
+]]>
+</description>
+<link>http://www.weatherzone.com.au/sa/adelaide/adelaide</link>
+<guid isPermaLink="true">http://www.weatherzone.com.au/sa/adelaide/adelaide</guid>
+</item>
+<item>
+<title>Adelaide weather</title>
+<description>
+<![CDATA[
+<p><a href="http://www.weatherzone.com.au/radar.jsp?lt=radar&amp;lc=064">Adelaide weather radar</a></p>
+ <p><a href="http://www.weatherzone.com.au/satellite.jsp?lt=wzstate&amp;lc=SA">Satellite cloud map</a></p>
+]]>
+</description>
+<link>http://www.weatherzone.com.au/sa/adelaide</link>
+<guid>http://www.weatherzone.com.au/sa/adelaide/adelaide</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+   
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    
+    .row.content {height: 450px}
+    
+   
+
+    
+    
+    @media screen and (max-width: 767px) {
+   
+      }
+      .row.content {height:auto;} 
+            
+
+   
+   
+   
+    body {
+    background-color: #84aeae;
+}
+
+nav, header {
+				clear: both;
+				color: #84aeae;
+				background-color: #84aeae;
+				height: 60px;
+                
+}
+			nav ul {
+				margin: 0px;
+				padding: 0px 0px 0px 0px;}
+			nav li {
+				display: inline;
+				margin-right: 215px;
+			    padding: 0px 0px 0px 100px;
+			}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current {
+				color: #000000;}
+
+
+p8 {
+  background: #84aeae;
+  background-image: -webkit-linear-gradient(top, #84aeae, #000000);
+  background-image: -moz-linear-gradient(top, #84aeae, #000000);
+  background-image: -ms-linear-gradient(top, #84aeae, #000000);
+  background-image: -o-linear-gradient(top, #84aeae, #000000);
+  background-image: linear-gradient(to bottom, #84aeae, #000000);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  text-shadow: 1px 3px 1px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 10px 20px 10px 20px;
+  border: solid #0079c4 0px;
+  text-decoration: none;
+  margin: 0px auto 0px auto;
+Position: absolute;
+top: -05px;
+  
+}
+
+p8:hover {
+  background: #eeff00;
+  background-image: -webkit-linear-gradient(top, #eeff00, #3498db);
+  background-image: -moz-linear-gradient(top, #eeff00, #3498db);
+  background-image: -ms-linear-gradient(top, #eeff00, #3498db);
+  background-image: -o-linear-gradient(top, #eeff00, #3498db);
+  background-image: linear-gradient(to bottom, #eeff00, #3498db);
+  text-decoration: none;
+}
+
+
+h1 {
+   font-style: oblique;
+    Font-family: "Courier New", Courier, monospace;
+    position: absolute;
+    left: 270px;
+    top: -20px;
+    font-size: 55px;  
+    color:#293d3d;
+}
+p{
+    position: absolute;
+    left: 230px;
+    top: 170px;
+      font-size: 20px;  
+    color:#293d3d;
+}
+
+form{
+    position: absolute;
+     left: 230px;
+    top: 300px;
+     width: 1000px;
+  height: 1000px;
+}
+
+p1
+{
+ position: absolute;
+    left: 230px;
+    top: 130px;
+      font-size: 20px;  
+    color:#293d3d;   
+}
+p2{
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 900px;
+  padding: 20px;
+  overflow: hidden;
+  border: 3px solid rgba(0,0,255,1);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-linear-gradient(-81.28940686249999deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), -webkit-linear-gradient(-225deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background: -moz-linear-gradient(171.2894068625deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), -moz-linear-gradient(315deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background: linear-gradient(171.2894068625deg, rgba(132,174,174,1) 0, rgba(132,174,174,1) 66%, rgba(0,0,0,1) 100%), linear-gradient(315deg, #84aeae 0, rgba(132,174,174,0.72) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 7px 7px 1px 5px rgba(0,0,0,0.3) ;
+  box-shadow: 7px 7px 1px 5px rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+    font-size: 20px;
+   position: absolute;
+    left: 120px;
+    top: 185px;
+      font-size: 20px;  
+    color:#293d3d; 
+}
+
+
+
+
+</style>   
+    
+<script>
+function showResult(str) {
+  if (str.length==0) { 
+    document.getElementById("livesearch").innerHTML="";
+    document.getElementById("livesearch").style.border="0px";
+    return;
+  } 
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    /*global xmlhttp*/
+    /*global ActiveXObject*/
+    xmlhttp=new XMLHttpRequest("Microsoft.XMLHTTP");
+  } else {  // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("livesearch").innerHTML=xmlhttp.responseText;
+      document.getElementById("livesearch").style.border="1px solid #A5ACB2";
+    }
+  }
+  xmlhttp.open("GET","livesearch.php?q="+str,true);
+  xmlhttp.send();
+}
+</script>
+
+<h1>Cheap easy travelling</h1>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+<form>
+<input type="text" size="30" onkeyup="showResult(this.value)">
+<div id="livesearch"></div>
+</form>
+<div class="col-sm-8 text-left"> 	
+<p2>Rememeber your childhood family holiday in the south of france? or your marvelous honeymoon in new york?</br>
+Search our database for multiple countries for your liking.</p2>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+<li><p8><a href="homepage.html" class="button">home</a></p8></li>
+<li><p8><a href="Aboutus.html" class="button">About us</a></p8></li>
+<li><p8><a href="ajax.html" class="button">Country search</a></p8></li>
+<li><p8><a href="Weather.html" class="button">weather</a></p8></li>
+<ul class="nav navbar-nav navbar-right">
+</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+
+
+</body>
+</html>

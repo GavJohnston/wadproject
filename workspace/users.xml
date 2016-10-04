@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<user>
+
+<details>
+<text>user1</text>
+<password>password1</password>
+</details>
+
+<details>
+<text>user2</text>
+<password>password2</password>
+</details>
+
+<details>
+<text>user3</text>
+<password>password3</password>
+</details>
+
+<details>
+<text>user4</text>
+<password>password4</password>
+</details>
+
+</user>

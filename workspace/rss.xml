@@ -1,0 +1,109 @@
+<rss version="0.91">
+<channel>
+<title>Weather updates</title>
+<description>List of Weather updates From Places around the world</description>
+<link>http://uk.weather.com/</link>
+<item>
+<title>America</title>
+<description>List of Weather updates From washington D.C</description>
+<link>http://www.weather.com/weather/today/l/USDC0001:1:US</link>
+</item>
+<item>
+<title>China</title>
+<description>List of Weather updates From Beijing</description>
+<link>http://www.weather.com/weather/today/l/CHXX0008:1:CH</link>
+</item>
+<item>
+<title>Dublin Ireland</title>
+<description>List of Weather updates From Dublin Ireland</description>
+<link>http://www.weather.com/weather/today/l/EIXX0014:1:EI</link>
+</item>
+<channel>
+<title>India</title>
+<description>List of Weather updates From </description>
+<link>http://www.weather.com/weather/today/l/INXX0096:1:IN</link>
+<item>
+<title>France</title>
+<description>List of Weather updates From paris</description>
+<link>http://www.weather.com/weather/today/l/FRXX0076:1:FR</link>
+</item>
+<item>
+<title>Germany</title>
+<description>List of Weather updates From Berlin</description>
+<link>http://www.weather.com/weather/today/l/GMBE0001:1:GM</link>
+</item>
+<item>
+<title>Netherlands</title>
+<description>List of Weather updates From Amsterdam</description>
+<link>http://www.weather.com/weather/today/l/NLXX0002:1:NL</link>
+</item>
+<item>
+<title>Canada</title>
+<description>List of Weather updates From Toronto</description>
+<link>http://www.weather.com/weather/today/l/CAXX0504:1:CA</link>
+</item>
+<item>
+<title>Spain</title>
+<description>List of Weather updates From Madrid</description>
+<link>http://www.weather.com/weather/today/l/SPMD0755:1:SP</link>
+</item>
+<item>
+<title>Finland</title>
+<description>List of Weather updates From helsinki</description>
+<link>http://www.weather.com/weather/today/l/FIXX0002:1:FI</link>
+</item>
+<channel>
+<title>Sweden</title>
+<description>List of Weather updates From Stockholm</description>
+<link>http://www.weather.com/weather/today/l/SWXX0031:1:SW</link>
+<item>
+<title>Czech Republic</title>
+<description>List of Weather updates From Prague</description>
+<link>http://www.weather.com/weather/today/l/EZPR0099:1:EZ</link>
+</item>
+<item>
+<title>Hungary</title>
+<description>List of Weather updates From </description>
+<link>http://www.weather.com/weather/today/l/HUXX0002:1:HU</link>
+</item>
+<item>
+<title>Croatia</title>
+<description>List of Weather updates From Budapest</description>
+<link>http://www.weather.com/weather/today/l/HRXX0005:1:HR</link>
+</item>
+<item>
+<title>Russia</title>
+<description>List of Weather updates From Moscow</description>
+<link>http://www.weather.com/weather/today/l/RSMK0150:1:RS</link>
+</item>
+<item>
+<title>Japan</title>
+<description>List of Weather updates From Tokyo</description>
+<link>http://www.weather.com/weather/today/l/JAXX0085:1:JA</link>
+</item>
+<item>
+<title>Thailand</title>
+<description>List of Weather updates From Bangkok</description>
+<link>http://www.weather.com/weather/today/l/THXX0002:1:TH</link>
+</item>
+<channel>
+<title>Austria</title>
+<description>List of Weather updates From Vienna</description>
+<link>http://www.weather.com/weather/today/l/AUXX0025:1:AU</link>
+<item>
+<title>New Zealand</title>
+<description>List of Weather updates From Wellington</description>
+<link>http://www.weather.com/weather/today/l/NZXX1291:1:NZ</link>
+</item>
+<item>
+<title>Chile</title>
+<description>List of Weather updates From Santiago</description>
+<link>http://www.weather.com/weather/today/l/CIXX0020:1:CI</link>
+</item>
+<item>
+<title>Argentina</title>
+<description>List of Weather updates From Buenos Airesti</description>
+<link>http://www.weather.com/weather/today/l/ARBA0009:1:AR</link>
+</item>
+</channel>
+</rss>
